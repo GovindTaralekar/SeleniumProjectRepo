@@ -39,6 +39,7 @@ public class TestNG {
 		FileInputStream fis=new FileInputStream("C:\\Users\\shree\\Desktop\\Eclips\\eclipse-jee-neon-3-win32-x86_64"
 				+ "\\eclipse\\corejava\\Selenium_Project\\src\\RDemoWebShop\\DemoWebShop.properties");
 		pro.load(fis);
+		
 		log.debug("Open Browser..");
 		log.debug("URL="+pro.getProperty("url"));
 		
@@ -110,6 +111,7 @@ public class TestNG {
 	    File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 //		FileUtils.copyFile(src, new File("E:\\SS\\DemoWebShopAnn.jpg"));
 		FileUtils.copyFileToDirectory(src, new File("E:\\SS"));
+		
 		log.fatal("Screenshot Taken Successful....");
 	  }
 	  @AfterClass

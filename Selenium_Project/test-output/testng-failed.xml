@@ -5,14 +5,8 @@
     <classes>
       <class name="RDemoWebShop.TestNG">
         <methods>
-          <include name="closedriver"/>
-          <include name="maximizebrowser"/>
-          <include name="deletecookie"/>
           <include name="browser"/>
           <include name="m1"/>
-          <include name="conclose"/>
-          <include name="getCookies"/>
-          <include name="capturescreenshot"/>
         </methods>
       </class> <!-- RDemoWebShop.TestNG -->
     </classes>

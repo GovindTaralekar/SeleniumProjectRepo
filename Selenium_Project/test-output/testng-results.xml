@@ -1,41 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29646" started-at="2021-08-04T12:26:57Z" finished-at="2021-08-04T12:27:27Z">
+  <suite name="Default suite" duration-ms="34" started-at="2021-08-04T16:55:17Z" finished-at="2021-08-04T16:55:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29646" started-at="2021-08-04T12:26:57Z" finished-at="2021-08-04T12:27:27Z">
+    <test name="Default test" duration-ms="34" started-at="2021-08-04T16:55:17Z" finished-at="2021-08-04T16:55:17Z">
       <class name="RDemoWebShop.TestNG">
-        <test-method status="PASS" signature="browser()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="browser" is-config="true" duration-ms="3329" started-at="2021-08-04T17:56:54Z" finished-at="2021-08-04T17:56:57Z">
+        <test-method status="FAIL" signature="browser()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="browser" is-config="true" duration-ms="0" started-at="2021-08-04T22:25:17Z" finished-at="2021-08-04T22:25:17Z">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\shree\Desktop\Eclips\eclipse-jee-neon-3-win32-x86_64\eclipse\corejava\Selenium_Project\src\RDemoWebShop\DemoWebShop.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\shree\Desktop\Eclips\eclipse-jee-neon-3-win32-x86_64\eclipse\corejava\Selenium_Project\src\RDemoWebShop\DemoWebShop.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at RDemoWebShop.TestNG.browser(TestNG.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:307)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method status="PASS" signature="maximizebrowser()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="maximizebrowser" is-config="true" duration-ms="24222" started-at="2021-08-04T17:56:57Z" finished-at="2021-08-04T17:57:21Z">
+        <test-method status="SKIP" signature="maximizebrowser()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="maximizebrowser" is-config="true" duration-ms="0" started-at="2021-08-04T22:25:17Z" finished-at="2021-08-04T22:25:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- maximizebrowser -->
-        <test-method status="PASS" signature="m1()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="m1" duration-ms="4717" started-at="2021-08-04T17:57:21Z" finished-at="2021-08-04T17:57:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="getCookies()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="getCookies" is-config="true" duration-ms="0" started-at="2021-08-04T17:57:21Z" finished-at="2021-08-04T17:57:21Z">
+        <test-method status="SKIP" signature="getCookies()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="getCookies" is-config="true" duration-ms="0" started-at="2021-08-04T22:25:17Z" finished-at="2021-08-04T22:25:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCookies -->
-        <test-method status="PASS" signature="capturescreenshot()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="capturescreenshot" is-config="true" duration-ms="574" started-at="2021-08-04T17:57:26Z" finished-at="2021-08-04T17:57:26Z">
+        <test-method status="SKIP" signature="m1()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="m1" duration-ms="1" started-at="2021-08-04T22:25:17Z" finished-at="2021-08-04T22:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="SKIP" signature="capturescreenshot()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="capturescreenshot" is-config="true" duration-ms="0" started-at="2021-08-04T22:25:17Z" finished-at="2021-08-04T22:25:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capturescreenshot -->
-        <test-method status="PASS" signature="deletecookie()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="deletecookie" is-config="true" duration-ms="78" started-at="2021-08-04T17:57:26Z" finished-at="2021-08-04T17:57:27Z">
+        <test-method status="SKIP" signature="deletecookie()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="deletecookie" is-config="true" duration-ms="0" started-at="2021-08-04T22:25:17Z" finished-at="2021-08-04T22:25:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletecookie -->
-        <test-method status="PASS" signature="conclose()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="conclose" is-config="true" duration-ms="0" started-at="2021-08-04T17:57:27Z" finished-at="2021-08-04T17:57:27Z">
+        <test-method status="SKIP" signature="conclose()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="conclose" is-config="true" duration-ms="0" started-at="2021-08-04T22:25:17Z" finished-at="2021-08-04T22:25:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- conclose -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="closedriver" is-config="true" duration-ms="844" started-at="2021-08-04T17:57:27Z" finished-at="2021-08-04T17:57:28Z">
+        <test-method status="SKIP" signature="closedriver()[pri:0, instance:RDemoWebShop.TestNG@e45f292]" name="closedriver" is-config="true" duration-ms="0" started-at="2021-08-04T22:25:17Z" finished-at="2021-08-04T22:25:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
