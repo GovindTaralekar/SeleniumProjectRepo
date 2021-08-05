@@ -36,8 +36,10 @@ public class TestNG {
 	@BeforeSuite
 	public void browser() throws IOException
 	{
-		FileInputStream fis=new FileInputStream("C:\\Users\\shree\\Desktop\\Eclips\\eclipse-jee-neon-3-win32-x86_64"
-				+ "\\eclipse\\corejava\\Selenium_Project\\src\\RDemoWebShop\\DemoWebShop.properties");
+		FileInputStream fis=new FileInputStream("C:\\Users\\shree\\git\\SeleniumProjectRepo\\"
+				+ "Selenium_Project\\src\\RDemoWebShop\\DemoWebShop.properties");
+		//C:\Users\shree\git\SeleniumProjectRepo\Selenium_Project\src\log4j.properties
+		//C:\Users\shree\git\SeleniumProjectRepo\Selenium_Project\src\RDemoWebShop\DemoWebShop.properties
 		pro.load(fis);
 		
 		log.debug("Open Browser..");
