@@ -85,7 +85,7 @@ public class TestNG {
 	}
 	 @Test
 	  public void m1() {
-		 
+		 System.out.println("Test Method Start..");
 		 driver.get("http://demowebshop.tricentis.com/");
 		 String s=driver.getTitle();
 		 log.info("Title of This Page="+s);
